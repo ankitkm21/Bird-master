@@ -77,7 +77,7 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-if(keyCode===97){
+if(keyCode===32){
 slingshot.attach(bird.body);
 
 
