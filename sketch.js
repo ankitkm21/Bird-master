@@ -79,10 +79,15 @@ function mouseReleased(){
 function keyPressed(){
 if(keyCode===32){
 slingshot.attach(bird.body);
-
-
 }
 
+function GetKeyCode(evt)
+
+    {
+
+        alert("You pressed : " + evt.keyCode);
+
+    }
 
 
 
